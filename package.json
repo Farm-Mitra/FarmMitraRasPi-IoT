@@ -1,0 +1,30 @@
+{
+  "name": "mitra",
+  "version": "1.0.0",
+  "description": "Node server to adding wonders to the Pi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Farm-Mitra/FarmMitraRasPi-IoT.git"
+  },
+  "keywords": [
+    "farmmitra",
+    "iot",
+    "smart",
+    "farmer"
+  ],
+  "author": "Precision Farm ers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Farm-Mitra/FarmMitraRasPi-IoT/issues"
+  },
+  "homepage": "https://github.com/Farm-Mitra/FarmMitraRasPi-IoT#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "mqtt": "^1.7.3",
+    "socket.io": "^1.4.5"
+  }
+}
